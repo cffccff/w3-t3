@@ -748,7 +748,7 @@ GameObject:
   - component: {fileID: 260060005}
   - component: {fileID: 260060006}
   m_Layer: 0
-  m_Name: BlueGem
+  m_Name: gemBlue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4312,7 +4312,7 @@ GameObject:
   - component: {fileID: 1363670990}
   - component: {fileID: 1363670991}
   m_Layer: 0
-  m_Name: RedPotion
+  m_Name: potionRed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4570,7 +4570,7 @@ GameObject:
   - component: {fileID: 1441402827}
   - component: {fileID: 1441402828}
   m_Layer: 0
-  m_Name: Armour
+  m_Name: Armor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5026,7 +5026,7 @@ GameObject:
   - component: {fileID: 1696467108}
   - component: {fileID: 1696467109}
   m_Layer: 0
-  m_Name: BlueGem
+  m_Name: gemBlue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
