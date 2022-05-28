@@ -27,10 +27,17 @@ public class NewBehaviourScript1 : MonoBehaviour
         text1.enabled = true;
         text.text = "3";
         text1.text = "5";
-        items.Add(new Item("wand", 3, "wand"));
-        items.Add(new Item("scroll", 4, "scroll"));
-        items.Add(new Item("tome", 2, "tome"));
-        items.Add(new Item("map", 5, "map"));
+       
+
+        Image ItemSlot2 = GameObject.Find("ItemSlot2").GetComponent<Image>();
+        GameObject ImageOfItemSlot2 = ItemSlot2.transform.GetChild(0).gameObject;
+        Image image2 = ImageOfItemSlot2.GetComponent<Image>();
+        GameObject TextOfImage2 = ImageOfItemSlot2.transform.GetChild(0).gameObject;
+        Text text2 = TextOfImage2.GetComponent<Text>();
+        Debug.Log(text2.text.ToString().StartsWith(""));
+        Debug.Log(text2.text.ToString()=="");
+
+        Debug.Log(text2.text.ToString().Equals(""));
     }
 
     // Update is called once per frame

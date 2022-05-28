@@ -22,15 +22,22 @@ public class EquipmentSlot : MonoBehaviour, IDropHandler
     {
 
 
-        Debug.Log("ItemSlotDrop");
+        Debug.Log(item.transform.name.ToString());
+        item.GetComponentInChildren<Text>().color = new Color32(255, 255, 255, 255);
         GameObject itemBeingDragged = DragDrop.draggedItem;
 
         //slot be swaped
         item.transform.SetParent(itemBeingDragged.transform.parent);
-
-
         itemBeingDragged.transform.SetParent(transform);
-        Debug.Log(item.transform.parent.name.ToString());
+        if (itemBeingDragged.GetComponentInChildren<Text>().text.ToString().StartsWith(""))
+        {
+            itemBeingDragged.GetComponentInChildren<Text>().color = new Color32(0,0,0,0);
+        }
+        Debug.Log(itemBeingDragged.transform.parent.name.ToString());
+        Debug.Log(itemBeingDragged.transform.name.ToString());
+
+
+
 
 
     }

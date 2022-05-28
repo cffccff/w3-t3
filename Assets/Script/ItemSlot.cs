@@ -30,6 +30,9 @@ public class ItemSlot : MonoBehaviour , IDropHandler
 
 
             itemBeingDragged.transform.SetParent(transform);
+       
+            itemBeingDragged.GetComponentInChildren<Text>().color = new Color32(255, 255, 255, 255);
+        
         Debug.Log(item.transform.parent.name.ToString());
 
 
