@@ -20,12 +20,17 @@ public class EquipmentSlot : MonoBehaviour, IDropHandler
     }
     public void OnDrop(PointerEventData eventData)
     {
-
-
+        Debug.Log("Item will be swap");
+        Debug.Log(item.transform.parent.name.ToString());
         Debug.Log(item.transform.name.ToString());
-        item.GetComponentInChildren<Text>().color = new Color32(255, 255, 255, 255);
+       
+        if (item.GetComponentInChildren<Text>().text.ToString().StartsWith(""))
+        {
+            item.GetComponentInChildren<Text>().color = new Color32(255, 255, 255, 255);
+        }
+       
         GameObject itemBeingDragged = DragDrop.draggedItem;
-
+        
         //slot be swaped
         item.transform.SetParent(itemBeingDragged.transform.parent);
         itemBeingDragged.transform.SetParent(transform);
@@ -33,6 +38,8 @@ public class EquipmentSlot : MonoBehaviour, IDropHandler
         {
             itemBeingDragged.GetComponentInChildren<Text>().color = new Color32(0,0,0,0);
         }
+       
+        Debug.Log("Item swaped");
         Debug.Log(itemBeingDragged.transform.parent.name.ToString());
         Debug.Log(itemBeingDragged.transform.name.ToString());
 

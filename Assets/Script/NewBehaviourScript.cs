@@ -109,7 +109,7 @@ public class NewBehaviourScript : MonoBehaviour
             GameObject TextOfImage = imageOfSlot.transform.GetChild(0).gameObject;
             Text text = TextOfImage.GetComponent<Text>();
             Image image = imageOfSlot.GetComponent<Image>();
-            if (image.sprite.ToString().StartsWith("BG1"))
+            if (image.sprite.ToString().StartsWith("BG1")|| image.sprite.ToString().StartsWith("UI"))
             {
                 image.sprite = Resources.Load<Sprite>("Sprites/ItemIcon/" + icon);
                 image.color = new Color32(255, 255, 225, 225);
@@ -128,7 +128,7 @@ public class NewBehaviourScript : MonoBehaviour
         if (DeleteScript.lastItem != -1)
         {
             Debug.Log("You have deleted the item!: " + DeleteScript.lastItem);
-            items.RemoveAt(DeleteScript.lastItem - 1);
+            //items.RemoveAt(DeleteScript.lastItem - 1);
             DeleteSlot();
         }
 

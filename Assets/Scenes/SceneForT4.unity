@@ -2294,15 +2294,15 @@ RectTransform:
   m_Children:
   - {fileID: 2097341553}
   - {fileID: 112082761}
-  - {fileID: 1554896967}
-  - {fileID: 807235994}
-  - {fileID: 1325053847}
-  - {fileID: 1553816115}
   - {fileID: 1927444988}
   - {fileID: 1646883573}
   - {fileID: 2050903242}
   - {fileID: 1717841736}
   - {fileID: 1992820429}
+  - {fileID: 1554896967}
+  - {fileID: 807235994}
+  - {fileID: 1325053847}
+  - {fileID: 1553816115}
   - {fileID: 1864984687}
   m_Father: {fileID: 1571309843}
   m_RootOrder: 1
@@ -3177,7 +3177,7 @@ GameObject:
   - component: {fileID: 532524991}
   - component: {fileID: 532524990}
   m_Layer: 5
-  m_Name: ItemSlot
+  m_Name: ItemSlot (0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4939,7 +4939,7 @@ GameObject:
   - component: {fileID: 807235996}
   - component: {fileID: 807235995}
   m_Layer: 5
-  m_Name: BackGroundArmorEquipment
+  m_Name: EquipmentSlot (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4959,7 +4959,7 @@ RectTransform:
   m_Children:
   - {fileID: 734012785}
   m_Father: {fileID: 415469055}
-  m_RootOrder: 3
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -10189,7 +10189,7 @@ GameObject:
   - component: {fileID: 1325053849}
   - component: {fileID: 1325053848}
   m_Layer: 5
-  m_Name: BackGroundShieldEquipment
+  m_Name: EquipmentSlot (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10209,7 +10209,7 @@ RectTransform:
   m_Children:
   - {fileID: 2013277807}
   m_Father: {fileID: 415469055}
-  m_RootOrder: 4
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -11836,7 +11836,7 @@ GameObject:
   - component: {fileID: 1553816117}
   - component: {fileID: 1553816116}
   m_Layer: 5
-  m_Name: BackGroundHelmetEquipment
+  m_Name: EquipmentSlot (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11856,7 +11856,7 @@ RectTransform:
   m_Children:
   - {fileID: 2003289199}
   m_Father: {fileID: 415469055}
-  m_RootOrder: 5
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -11913,7 +11913,7 @@ GameObject:
   - component: {fileID: 1554896969}
   - component: {fileID: 1554896968}
   m_Layer: 5
-  m_Name: BackGroundAxeEquipment
+  m_Name: EquipmentSlot (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11933,7 +11933,7 @@ RectTransform:
   m_Children:
   - {fileID: 764363091}
   m_Father: {fileID: 415469055}
-  m_RootOrder: 2
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -12957,7 +12957,7 @@ GameObject:
   - component: {fileID: 1646883575}
   - component: {fileID: 1646883574}
   m_Layer: 5
-  m_Name: EquipmentSlot
+  m_Name: EquipmentSlot (0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12977,7 +12977,7 @@ RectTransform:
   m_Children:
   - {fileID: 136809441}
   m_Father: {fileID: 415469055}
-  m_RootOrder: 7
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -13409,7 +13409,7 @@ RectTransform:
   m_Children:
   - {fileID: 1875609670}
   m_Father: {fileID: 415469055}
-  m_RootOrder: 9
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -15087,7 +15087,7 @@ RectTransform:
   m_Children:
   - {fileID: 1724352240}
   m_Father: {fileID: 415469055}
-  m_RootOrder: 6
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -15605,7 +15605,7 @@ RectTransform:
   m_Children:
   - {fileID: 604349544}
   m_Father: {fileID: 415469055}
-  m_RootOrder: 10
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -16065,7 +16065,7 @@ RectTransform:
   m_Children:
   - {fileID: 1225030669}
   m_Father: {fileID: 415469055}
-  m_RootOrder: 8
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
